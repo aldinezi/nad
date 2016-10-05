@@ -59,8 +59,6 @@ h1{
 }
 .navbar{
 	-webkit-transition: all 500ms ease-out;
-    -moz-transition: all 500ms ease-out;
-    -o-transition: all 500ms ease-out;
     transition: all 500ms ease-out;
 }
 .navbar-fixed {
@@ -129,14 +127,16 @@ h1{
 	margin-left: -80px;
     font-size: 30px;
     position: absolute;
-    transform: translateX(-100%) rotate(-90deg);
+    -webkit-transform: translateX(-100%) rotate(-90deg);
+            transform: translateX(-100%) rotate(-90deg);
 	
 }
 .pretitle1{
 	margin-left: 0;
     margin-top: 630px;
     left: 0;
-    transform: translate(-30%) rotate(-90deg);
+    -webkit-transform: translate(-30%) rotate(-90deg);
+            transform: translate(-30%) rotate(-90deg);
     font-size: 30px;
     position: absolute;
     padding: 79px;
@@ -193,8 +193,6 @@ h1{
 	background-repeat:no-repeat;
 	background-size:contain;
 	-webkit-transition: all 800ms ease-out;
-    -moz-transition: all 800ms ease-out;
-    -o-transition: all 800ms ease-out;
     transition: all 800ms ease-out;
 	display: inline-block;
     vertical-align: middle;
@@ -240,7 +238,8 @@ h1{
 	background-size:contain;
 }
 .double li:hover:before{
-	transform:rotate(280deg);
+	-webkit-transform:rotate(280deg);
+	        transform:rotate(280deg);
 }
 .history-block{
 	max-width: 1350px;
@@ -261,10 +260,9 @@ h1{
 .introtext{font-size:25px;}
 #leftblue,#leftlblue,#leftgreen,#leftpink,#blue_x5F_bub,#gren_x5F_bub,#plava, #zelena, #cel1, #cel2{
 	mix-blend-mode: multiply;
-	transform-origin:center;
+	-webkit-transform-origin:center;
+	        transform-origin:center;
 	-webkit-transition: all 1500ms ease-out;
-    -moz-transition: all 1500ms ease-out;
-    -o-transition: all 1500ms ease-out;
     transition: all 1500ms ease-out;
 	}
 
@@ -279,10 +277,9 @@ h1{
 	}
 #blue,#lblue,#green,#pink{
 	mix-blend-mode: multiply;
-	transform-origin:center;
+	-webkit-transform-origin:center;
+	        transform-origin:center;
 	-webkit-transition: all 1500ms ease-out;
-    -moz-transition: all 1500ms ease-out;
-    -o-transition: all 1500ms ease-out;
     transition: all 1500ms ease-out;
 	}
 #rightsvg{
@@ -317,7 +314,8 @@ h1{
     right: -280px;
 	font-size: 30px;
     position: absolute;
-    transform: translateX(-100%) rotate(-90deg);
+    -webkit-transform: translateX(-100%) rotate(-90deg);
+            transform: translateX(-100%) rotate(-90deg);
 	
 }
 .faq{
@@ -387,12 +385,11 @@ h1{
 	max-height:40px;
 	margin-right:25px;
 	-webkit-transition: all 400ms ease-out;
-    -moz-transition: all 400ms ease-out;
-    -o-transition: all 400ms ease-out;
     transition: all 400ms ease-out;
 }
 .social-media-icons>div:hover{
-	transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	        transform:scale(1.2);
 }
 .social-media-icons img{
 	max-height:40px;
@@ -410,8 +407,6 @@ h1{
 	padding:13px;
 	text-decoration:none;
 	-webkit-transition: all 400ms ease-out;
-    -moz-transition: all 400ms ease-out;
-    -o-transition: all 400ms ease-out;
     transition: all 400ms ease-out;
 	margin: auto;
     max-width: 150px;
@@ -425,7 +420,6 @@ h1{
 	}
 .has-error .form-control {
     border-color: #a94442 !important;
-    -webkit-box-shadow: 2px 2px 5px rgba(113, 0, 0, 0.4);
 	box-shadow: 2px 2px 5px rgba(113, 0, 0, 0.4);
 }
 @media (max-width: 768px) {
@@ -1452,4 +1446,3 @@ h1{
 		    padding: 79px;
 	}
 }
-
